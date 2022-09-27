@@ -88,7 +88,7 @@ def main():
     female_src = "/home/rejoy/Desktop/female/"   ##Mention the path of FEMALE folder
     target_src = "/home/rejoy/Desktop/target/"   ##Mention an existed target folder where to store
     merge(male_src,female_src,target_src)
-    rate=0.7
+    rate=0.7 ###Train Test Split Rate
     split(target_src,rate)
     
 if __name__ == '__main__':
